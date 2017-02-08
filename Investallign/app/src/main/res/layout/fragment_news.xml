@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <com.investallign.CustomViews.Ranger
+            android:id="@+id/listener_ranger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="4dp"
+            app:daysContainerBackgroundColor="@color/white"
+            app:dayTextColor="#000"
+            app:selectedDayTextColor="#000"
+            app:selectedDayBackgroundColor="#FFAA4D"
+            app:displayDayOfWeek="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_news_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E4EDF6"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>

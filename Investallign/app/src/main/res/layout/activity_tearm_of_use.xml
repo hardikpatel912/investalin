@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <include layout="@layout/tool_bar" />
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:text="The agreement is useful to The Guardian to set the rules and guidelines for visitors, users and customers:
+
+Registration: inform users that they must agree to a set of rules when they register on your website or mobile app
+Disable or terminate accounts: inform users that their accounts can be disabled or terminated if abuses happen on your website or mobile app, e.g. spamming, swearing etc.
+Owner of content: notify users that you, the company, is the owner of the content appearing on your website or mobile app – except in cases where other users can post content (upload, share, create etc.) where the users are the owners of such content
+Changes to the agreement: users should be informed about upcoming changes to the agreement before the changes are applied.
+DMCA: The Guardian is also informing owners of copyright content that they can submit a DMCA notice to the website if they found infringing content in their DMCA clause.
+And more"
+        android:textSize="15dp"></TextView>
+
+</LinearLayout>

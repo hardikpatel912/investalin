@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_transparent">#000000</color>
+    <color name="btn_focus">#000</color>
+    <color name="btn_focus_gone">#789F82</color>
+    <color name="btn_color">#0B4387</color>
+    <color name="progress_dialog_color">#789F82</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ColorPrimary">#3EA5E0</color>
+    <color name="ColorPrimaryDark">#3EA5E0</color>
+    <color name="tabsScrollColor">#FFF</color>
+
+    //customize Listview
+
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="orange">#EF8354</color>
+    <color name="green">#008000</color>
+
+    <color name="default_days_container_background_color">#000000</color>
+    <color name="default_selected_day_background_color">#000</color>
+
+    <color name="default_day_text_color">#000</color>
+    <color name="default_selected_day_text_color">#111111</color>
+</resources>

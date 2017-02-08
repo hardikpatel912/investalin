@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Investallign</string>
+    <string name="msg_server_error">Something went wrong, please try again later.</string>
+    <string name="no_internet_connection">No Internet Connection Available</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="Rs">\u20B9</string>
+    <string name="invest_all">Invest All</string>
+    <string name="description">In ancient manuscripts, another means to divide sentences into paragraphs was a line break (newline) followed by an initial at the beginning of the next paragraph. An initial is an oversize capital letter, sometimes outdented beyond the margin of text. This style can be seen, for example, in the original Old English manuscript of Beowulf. Outdenting is still used in English typography, though not commonly.[4] Modern English typography usually indicates a new paragraph by indenting the first line. This style can be seen in the (handwritten) United States Constitution from 1787. For additional ornamentation, a hedera leaf or other symbol can be added to the inter-paragraph whitespace, or put in the indentation space.In ancient manuscripts, another means to divide sentences into paragraphs was a line break (newline) followed by an initial at the beginning of the next paragraph. An initial is an oversize capital letter, sometimes outdented beyond the margin of text. This style can be seen, for example, in the original Old English manuscript of Beowulf. Outdenting is still used in English typography, though not commonly.[4] Modern English typography usually indicates a new paragraph by indenting the first line. This style can be seen in the (handwritten) United States Constitution from 1787. For additional ornamentation, a hedera leaf or other symbol can be added to the inter-paragraph whitespace, or put in the indentation space.In ancient manuscripts, another means to divide sentences into paragraphs was a line break (newline) followed by an initial at the beginning of the next paragraph. An initial is an oversize capital letter, sometimes outdented beyond the margin of text. This style can be seen, for example, in the original Old English manuscript of Beowulf. Outdenting is still used in English typography, though not commonly.[4] Modern English typography usually indicates a new paragraph by indenting the first line. This style can be seen in the (handwritten) United States Constitution from 1787. For additional ornamentation, a hedera leaf or other symbol can be added to the inter-paragraph whitespace, or put in the indentation space.</string>
+    <string name="tutorial_view"><font size = "40"><b>1250</b></font> views</string>
+    <string name="InvestRes">\u20B9 180</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="about_us">About Us</string>
+    <string name="facebook_app_id">956210631177420</string>
+
+</resources>

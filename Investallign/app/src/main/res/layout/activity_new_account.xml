@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3EA5E0"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <include layout="@layout/tool_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="#3EA5E0"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <EditText
+                    android:id="@+id/activity_new_account_edt_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="13"
+                    android:backgroundTint="#6E6E6E"
+                    android:drawableLeft="@drawable/ic_user_name"
+                    android:drawablePadding="10dp"
+                    android:hint="First Name"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#6E6E6E"
+                    android:textColorHint="#6E6E6E" />
+
+
+                <EditText
+                    android:id="@+id/activity_new_account_edt_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="13"
+                    android:backgroundTint="#6E6E6E"
+                    android:drawableLeft="@drawable/ic_user_name"
+                    android:drawablePadding="10dp"
+                    android:hint="Last Name"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#6E6E6E"
+                    android:textColorHint="#6E6E6E" />
+
+
+                <EditText
+                    android:id="@+id/activity_new_account_edt_email_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="13"
+                    android:backgroundTint="#6E6E6E"
+                    android:drawableLeft="@drawable/ic_signup_email"
+                    android:drawablePadding="10dp"
+                    android:hint="Email Address"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#6E6E6E"
+                    android:textColorHint="#6E6E6E" />
+
+
+                <EditText
+                    android:id="@+id/activity_new_account_edt_pwd_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="13"
+                    android:backgroundTint="#6E6E6E"
+                    android:drawableLeft="@drawable/ic_password_signup"
+                    android:drawablePadding="10dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#6E6E6E"
+                    android:textColorHint="#6E6E6E" />
+
+
+                <EditText
+                    android:id="@+id/activity_new_account_edt_confirm_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="13"
+                    android:backgroundTint="#6E6E6E"
+                    android:drawableLeft="@drawable/ic_password_signup"
+                    android:drawablePadding="10dp"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#6E6E6E"
+                    android:textColorHint="#6E6E6E" />
+
+
+                <Button
+                    android:id="@+id/activity_new_account_btn_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="12"
+                    android:background="#FA8258"
+                    android:text="Sign Up"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:text="By creating an account, you are agreeing to the Terms of use and Privacy Policy" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.investallign.CustomViews.RoundedImageView
+            android:id="@+id/user_profile_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/signup_pic"
+            android:elevation="4dp"
+            android:padding="10dp" />
+    </RelativeLayout>
+</RelativeLayout>

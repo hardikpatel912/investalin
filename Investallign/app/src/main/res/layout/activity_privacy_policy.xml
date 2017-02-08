@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <include layout="@layout/tool_bar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:padding="10dp"
+        android:text="The privacy policy is UK based and covers the general privacy concerns and regulations for UK based Internet users. Before using this sample privacy policy you should be aware that you are responsible for its contents when published to your own website and that includes the accuracy of information. I nor Jamie King Media offer not guarantees, liabilities or responsibilities in relation to the usage of this website privacy policy."
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>

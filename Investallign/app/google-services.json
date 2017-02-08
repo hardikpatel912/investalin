@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789476008537",
+    "project_id": "loginwithplus"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789476008537:android:9b57d6831e6b2b13",
+        "android_client_info": {
+          "package_name": "com.investallign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789476008537-bjncgvu17pc86t8d0m6o7ghr3ks4seul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.investallign",
+            "certificate_hash": "B6A14FB90BA48B10ACB4C677F03D9D322FE79F43"
+          }
+        },
+        {
+          "client_id": "789476008537-in5c6328obea27pjkhku1k2op3qkfmdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAhLbaPJvuwi0sLZ3_6296CS_7tCFLWuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
